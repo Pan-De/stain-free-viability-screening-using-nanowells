@@ -18,14 +18,14 @@ Treatments: ethanol, andrographolide, daunorubicin, and serum starvation (5% FBS
 
 
 **Step1: Installation requirements:** <br>
-  Linux or macOS with Python ≥ 3.6
-  TensorFlow ≥ 3.7
-  scikit-learn
-  matplotlib
-  OpenCV
-  NumPy
-  pandas
-  Keras
+* Linux or macOS with Python ≥ 3.6
+* TensorFlow ≥ 3.7
+* scikit-learn
+* matplotlib
+* OpenCV
+* NumPy
+* pandas
+* Keras
 
 
 
