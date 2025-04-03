@@ -1,3 +1,14 @@
+# preparation: 
+# split the total dataset into training (80%) and testing (20%)
+
+# File structure
+# train
+#   |--single/live
+#   |--non-single/dead
+# test
+#   |--single/live
+#   |--non-single/dead
+
 import os
 import pickle
 import numpy as np
