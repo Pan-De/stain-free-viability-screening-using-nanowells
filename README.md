@@ -3,10 +3,10 @@
 This document contains instructions on how to access the data associated with the submitted manuscript "".
 
 
-**Training datasets** <br>
-Cells were imaged in [nanowell-in-microwell plates](https://www.imagecyte.bio/). <br>
-The datasets for AI model development are available:<br>
+**Datasets for AI model development** <br>
 Cell Type: MDA-MB-231 cell line.<br>
+Cells were imaged in [nanowell-in-microwell plates](https://www.imagecyte.bio/). <br>
+Cell Imaging: Brightfield (phase-contrast) + LIVE/DEAD Cell Staining (Used as ground truth to generate text labels)
 Treatments: ethanol, andrographolide, daunorubicin, and serum starvation (5% FBS).<br>
 | Class             | Download Link|
 |-------------------|--------------|
