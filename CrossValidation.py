@@ -1,3 +1,11 @@
+# preparation: 
+# split the total dataset into training (80%) and testing (20%)
+
+# For the training dataset, create a CVS file ("img_labels.csv") to label each image
+# (column1: image_name; column2: Lable (0 or 1 to represent live/dead or single/non-single))
+
+# Put all training images into one folder (folder name: "train_cv")
+
 import os
 import numpy as np
 import pandas as pd
@@ -21,7 +29,7 @@ def normalize_brightness(image):
 date='202XXXX'
 # base_folder with all training and testing and dataframe
 base_folder='/project/CNN/data/'
-# the Xception model
+# the Xception model downloaded from Keras
 model_path='/project/tf_xception_model/'
 # Specify the directory where you want to save the file (data for confusion matrix)
 save_pathParent = '/project/CNN/save_cv'
