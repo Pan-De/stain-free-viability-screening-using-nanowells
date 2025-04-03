@@ -1,9 +1,12 @@
 # stain-free-viability-screening-using-nanowells
 
-This document contains instructions on how to access the data associated with the submitted manuscript "". <br>
+This document contains instructions on how to access the data associated with the submitted manuscript "".
+
+
+**Training datasets**
 Cells were imaged in [nanowell-in-microwell plates](https://www.imagecyte.bio/). <br>
 The datasets for AI model development are available:<br>
-cell Type: MDA-MB-231 cell line.<br>
+Cell Type: MDA-MB-231 cell line.<br>
 Treatments: ethanol, andrographolide, daunorubicin, and serum starvation (5% FBS).<br>
 | Class             | Download Link|
 |-------------------|--------------|
