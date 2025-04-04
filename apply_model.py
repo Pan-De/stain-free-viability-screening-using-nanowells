@@ -1,9 +1,9 @@
-# this is for identifying live and dead single cells in a microwell
-# Input:    a brightfield (BF) image and a merged image combines brightfield and fluorescent channels.
+# This is for identifying live and dead single cells in nanowells.
+# Input:    a brightfield (BF) image and a merged image combine brightfield and fluorescent channels.
 #           The brightfield image is the input of machine learning models
 # (optional)The merged image provides the ground truth label to validate model performance  
 # Output:
-#        BF unlabeled foler: A folder contains all segmented nanowell images
+#        BF unlabeled folder: A folder contains all segmented nanowell images
 #        Two folders contain the predicted and true single cell images, with one folder for each.
 #        Two folders contain the predicted and true non-single cell images, with one folder for each.
 
@@ -113,7 +113,7 @@ def crop_squares(image, centroids, square_size, save_path):
         cv2.imwrite(square_save,square)   
 
 
-# load the model (1st CNN model for single cell identifcaiton)
+# load the model (1st CNN model for single cell identification)
 model_path1= 'Y:/1stCNNdata/saved model/905_2/graham_Xception_val.h5'
 model1=load_model(model_path1)
 # load the model (2nd CNN model for live/dead assessment)
@@ -154,7 +154,7 @@ crop_squares(load_imgs[0], centroidsRGB, 400, os.path.join(RGBimg_fold,well_name
 
 
 # folders for true/predicted single and non-single cells, true/predicted live and dead cells
-# manually calssify nanowell images and put them in their true folders
+# manually classify nanowell images and put them in their true folders
 true_single=os.path.join(base_save,well_name,'merged','single')
 true_non_single=os.path.join(base_save,well_name,'merged','non_single')
 true_dead=os.path.join(base_save,well_name,'merged','single red')
@@ -174,10 +174,10 @@ os.makedirs(pre_live)
 os.makedirs(pre_dead)
 
 # 1st CNN
-# single cell prediciton
+# single cell inference
 run_model(BFimg_folder,pre_non_single,pre_single,model1,0.5)
 
 
 # 2nd CNN 
-# live/dead cell prediciton
+# live/dead cell inference
 run_model(pre_single,pre_dead,pre_live,model2,0.5)
