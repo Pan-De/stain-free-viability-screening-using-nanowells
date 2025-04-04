@@ -14,7 +14,10 @@ Treatments: ethanol, andrographolide, daunorubicin, and serum starvation (5% FBS
 | non-single cells  | link |
 | live single cells | link |
 | dead single cells | link |
-
+* single cell: 1 cell/nanowell <br>
+* non-single cell: 0 or 2+ cells/nanowell <br>
+* live single cell: A cell that is positive for the live stain, has a size no smaller than 30% of the average cell size, and shows no visible blebs. <br>
+* dead single cell: A cell that is positive for the dead stain, or a live stain-positive cell that is smaller than 30% of the average cell size or has visible blebs. <br>
 
 
 **Step1: Installation requirements:** <br>
