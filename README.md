@@ -1,6 +1,6 @@
 # stain-free-viability-screening-using-nanowells
 
-This document contains instructions on how to access the data associated with the submitted manuscript "Regularized single-cell imaging enables generalizable AI models for stain-free cell viability screening".
+This document contains instructions on how to access the data associated with the submitted manuscript **"Regularized single-cell imaging enables generalizable AI models for stain-free cell viability screening"**.
 
 
 **Datasets for AI model development** <br>
