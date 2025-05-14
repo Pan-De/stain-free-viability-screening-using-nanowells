@@ -1,4 +1,4 @@
-# stain-free-viability-screening-using-nanowells
+# Regularized single-cell imaging enables generalizable AI models for stain-free cell viability screening
 [![DOI](https://zenodo.org/badge/960107108.svg)](https://doi.org/10.5281/zenodo.15243856)
 
 This document contains instructions on how to access the data associated with the submitted manuscript **"Regularized single-cell imaging enables generalizable AI models for stain-free cell viability screening"**.
